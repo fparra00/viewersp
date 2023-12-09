@@ -9,7 +9,7 @@ sceneComponent.setup();
 viewer.scene = sceneComponent;
 
 const viewerContainer = document.getElementById(
-  "sharepointviewer-app-test"
+  "webinar-sharepoint-viewer"
 ) as HTMLDivElement;
 const rendererComponent = new OBC.PostproductionRenderer(
   viewer,
